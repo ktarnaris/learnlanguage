@@ -34,7 +34,7 @@
 </head>
 <body>
 
-<!-- {% if status %} -->
+{% if status %}
     <div class="area" id="first-area">
         <p>{{ question }}</p>
     </div>
@@ -50,7 +50,9 @@
     <div class="area" id="first-area">
         <p>remaining words: {{ remaining }}</p>
     </div>
-<!-- {% endif %} -->
+{% else %}
+      <p>Finished</p>
+{% endif %}
 
 </body>
 </html>

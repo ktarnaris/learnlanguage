@@ -96,13 +96,19 @@ def prepare_quiz(request):
     remaining = len(words_pool)
     status = remaining != 0
 
-    to_show = words_pool.pop(random.randint(0, len(words_pool) - 1))
-    context = {
-        "question": to_show["el"],
-        "answer": to_show["de"],
-        "remaining": remaining,
-        "status": status,
-    }
+    if status:
+        to_show = words_pool.pop(random.randint(0, len(words_pool) - 1))
+
+        context = {
+            "question": to_show["el"],
+            "answer": to_show["de"],
+            "remaining": remaining,
+            "status": status,
+        }
+    else:
+        context = {
+            "status": status,
+        }
 
     # Update session words after .pop
     request.session["words_pool"] = words_pool
