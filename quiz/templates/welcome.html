@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'quiz/styles.css' %}">
+    <title>🙭 Germmem Welcome Page</title>
+</head>
+<body>
+
+    <header>
+        Welcome to Germmem 🙭
+    </header>
+
+    <main>
+        <h1>Hello, and Welcome!</h1>
+        <p>We are glad to have you here. Explore our quiz and enjoy your stay.</p>
+      <p>So Far {{ count }} German words have been imported</p>
+        <a href="/list" class="button">See the Words</a>
+        <a href="/quiz" class="button">Start the Quiz</a>
+        <a href="/prepare_quiz" class="button">Prepare</a>
+        <a href="/settings" class="button">Settings</a>
+    </main>
+
+    <footer>
+        &copy; 2024 Germmem. All rights reserved.
+    </footer>
+
+</body>
+</html>

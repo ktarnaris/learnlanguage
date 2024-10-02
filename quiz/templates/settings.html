@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'quiz/styles.css' %}">
+    <title>Germmem Settings</title>
+</head>
+
+<body>
+    <h2>Enter some data</h2>
+    <form method="POST">
+        {% csrf_token %}
+        
+        <!-- Dropdown for selecting a value between 0 and 3 -->
+        <label for="set_difficulty">Select difficulty level (0-3):</label>
+        <select id="set_difficulty" name="set_difficulty">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+
+        <!-- Input for selecting a date -->
+        <label for="set_date">Select a date:</label>
+        <input type="date" id="set_date" name="set_date"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if results %}
+        <h3>{{ results }}</h3>
+    {% endif %}
+    <a href="/quiz" class="button">Start the Quiz</a>
+    <a href="/" class="button">Back to Home</a>
+</body>
+</html>
+

@@ -1,0 +1,299 @@
+phrases:
+  - date: 2024-09-03
+    translations:
+      de: Guten Morgen
+      el: "Καλό Πρωινό"
+  - date: 2024-09-03
+    translations:
+      de: Guten Tag
+      el: "Καλημέρα"
+  - date: 2024-09-03
+    translations:
+      de: Guten Abend
+      el: "Καλό απόγευμα"
+  - date: 2024-09-03
+    translations:
+      de: Gute Nacht
+      el: "Καληνύχτα"
+  - date: 2024-09-03
+    translations:
+      de: Auf Wiedersehen
+      el: "Εις το επανιδείν"
+  - date: 2024-09-05
+    translations:
+      de: Bis Bald
+      el: "Θα τα πούμε σύντομα"
+  - date: 2024-09-03
+    translations:
+      de: Grüß dich
+      el: "Γεια σου"
+  - date: 2024-09-03
+    translations:
+      de: Freut mich
+      el: "Χάρηκα για τη γνωριμία"
+  - date: 2024-09-03
+    translations:
+      de: Herzlich Willkommen
+      el: "Θερμό καλωσόρισμα"
+  - date: 2024-09-03
+    translations:
+      de: Wie heißt du?
+      el: "Πώς ονομάζεσαι;"
+  - date: 2024-09-03
+    translations:
+      de: Wie heißen Sie?
+      el: "Πώς ονομάζεστε;"
+  - date: 2024-09-03
+    translations:
+      de: Wie ist dein Name?
+      el: "Πώς είναι το όνομά σου;"
+  - date: 2024-09-03
+    translations:
+      de: Wie ist Ihr Name?
+      el: "Πώς είναι το όνομά σας;"
+  - date: 2024-09-05
+    translations:
+      de: Wie geht's?
+      el: "Πώς είσαι;"
+  - date: 2024-09-05
+    translations:
+      de: Wie alt bist du?
+      el: "Ποιά είναι η ηλικία σου;"
+  - date: 2024-09-05
+    translations:
+      de: Ich bin x Jahre alt?
+      el: "Είμαι x χρονών;"
+  - date: 2024-09-03
+    translations:
+      de: Wer bist du?
+      el: "Ποιός/α είσαι;"
+  - date: 2024-09-03
+    translations:
+      de: Wer sind Sie?
+      el: "Ποιός/α είστε;"
+  - date: 2024-09-03
+    translations:
+      de: Woher kommst du?
+      el: "Από που κατάγεσαι;"
+  - date: 2024-09-03
+    translations:
+      de: Woher kommen Sie?
+      el: "Από που κατάγεστε;"
+  - date: 2024-09-05
+    translations:
+      de: Wo wohnst du?
+      el: "Πού μένεις;"
+  - date: 2024-09-05
+    translations:
+      de: Wo wohnen Sie?
+      el: "Πού μένετε;"
+  - date: 2024-09-05
+    translations:
+      de: Tut mir Leid
+      el: "Λυπάμαι"
+  - date: 2024-09-05
+    translations:
+      de: Das macht nichts
+      el: "Δεν πειράζει;"
+  - date: 2024-09-05
+    translations:
+      de: Viel Erfolg
+      el: "Καλή επιτυχία"
+  - date: 2024-09-05
+    translations:
+      de: Wie bitte?
+      el: "Ορίστε; Πως είπατε;"
+  - date: 2024-09-05
+    translations:
+      de: Keine Ahnung
+      el: "Δεν έχω ιδέα"
+
+words:
+  - date: 2024-10-01
+    translations:
+      de: sein1
+      el: "Είμαι"
+  - date: 2024-10-01
+    translations:
+      de: sein2
+      el: "Είμαι"
+  - date: 2024-10-01
+    translations:
+      de: sein3
+      el: "Είμαι"
+  - date: 2024-10-01
+    translations:
+      de: sein4
+      el: "Είμαι"
+  - date: 2024-09-05
+    translations:
+      de: sein
+      el: "Είμαι"
+  - date: 2024-09-05
+    translations:
+      de: malen
+      el: "Ζωγραφίζω"
+  - date: 2024-09-05
+    translations:
+      de: machen
+      el: "Κάνω"
+  - date: 2024-09-05
+    translations:
+      de: wohnen
+      el: "Κατοικώ"
+  - date: 2024-09-05
+    translations:
+      de: kommen
+      el: "Έρχομαι"
+  - date: 2024-09-05
+    translations:
+      de: fliegen
+      el: "Πετάω"
+  - date: 2024-09-05
+    translations:
+      de: fragen
+      el: "Ρωτάω"
+  - date: 2024-09-05
+    translations:
+      de: kaufen
+      el: "Αγοράζω"
+  - date: 2024-09-05
+    translations:
+      de: hören
+      el: "Ακούω"
+  - date: 2024-09-05
+    translations:
+      de: glauben
+      el: "Πιστεύω"
+  - date: 2024-09-05
+    translations:
+      de: singen
+      el: "Τραγουδάω"
+  - date: 2024-09-05
+    translations:
+      de: leben
+      el: "Ζω"
+  - date: 2024-09-05
+    translations:
+      de: lieben
+      el: "Αγαπώ"
+  - date: 2024-09-05
+    translations:
+      de: trinken
+      el: "Πίνω"
+  - date: 2024-09-05
+    translations:
+      de: spielen
+      el: "Παίζω"
+  - date: 2024-09-05
+    translations:
+      de: gehen
+      el: "Πηγαίνω"
+  - date: 2024-09-03
+    translations:
+      de: wie
+      el: "Πώς"
+  - date: 2024-09-03
+    translations:
+      de: wer
+      el: "Ποιός"
+  - date: 2024-09-03
+    translations:
+      de: woher
+      el: "Από που"
+  - date: 2024-09-03
+    translations:
+      de: wo
+      el: "Που"
+  - date: 2024-09-03
+    translations:
+      de: aus
+      el: "Από"
+  - date: 2024-09-05
+    translations:
+      de: Bitte
+      el: "Παρακαλώ"
+  - date: 2024-09-05
+    translations:
+      de: Danke
+      el: "Ευχαριστώ"
+  - date: 2024-09-05
+    translations:
+      de: Entschuldigung
+      el: "Συγγνώμη"
+  - date: 2024-09-05
+    translations:
+      de: lernen
+      el: "μαθαίνω"
+  - date: 2024-09-03
+    translations:
+      de: Deutsch
+      el: "Γερμανικά"
+  - date: 2024-09-03
+    translations:
+      de: Deutschlehrerin
+      el: "Δασκάλα γερμανικών"
+  - date: 2024-09-10
+    translations:
+      de: antworten
+      el: "Απαντώ"
+  - date: 2024-09-10
+    translations:
+      de: arbeiten
+      el: "Δουλεύω"
+  - date: 2024-09-10
+    translations:
+      de: mieten
+      el: "Νοικιάζω"
+  - date: 2024-09-10
+    translations:
+      de: bitten
+      el: "Παρακαλώ"
+  - date: 2024-09-10
+    translations:
+      de: warten
+      el: "Περιμένω"
+  - date: 2024-09-10
+    translations:
+      de: bilden
+      el: "Σχηματίζω"
+  - date: 2024-09-10
+    translations:
+      de: baden
+      el: "Λούζω"
+  - date: 2024-09-10
+    translations:
+      de: senden
+      el: "Στέλνω"
+  - date: 2024-09-10
+    translations:
+      de: finden
+      el: "Βρίσκω"
+  - date: 2024-09-10
+    translations:
+      de: binden
+      el: "Δένω"
+  - date: 2024-09-10
+    translations:
+      de: reden
+      el: "Μιλώ/Λέω"
+  - date: 2024-09-10
+    translations:
+      de: reiten
+      el: "Ιππεύω"
+  - date: 2024-09-10
+    translations:
+      de: öffnen
+      el: "Ανοίγω"
+  - date: 2024-09-10
+    translations:
+      de: zeichnen
+      el: "Σχεδιάζω"
+  - date: 2024-09-10
+    translations:
+      de: rechnen
+      el: "Λογαριάζω/Υπολογίζω"
+  - date: 2024-09-10
+    translations:
+      de: auch
+      el: "Επίσης"

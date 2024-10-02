@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'quiz/styles.css' %}">
+</head>
+<body>
+
+<h1>Words</h1>
+
+<ol>
+  {% for word in list  %}
+    <li>{{ word }}</li>
+  {% endfor %}
+</ol>
+<a href="/" class="button">Back to Home</a>
+
+</body>
+</html>
