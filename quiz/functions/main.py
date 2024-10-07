@@ -7,7 +7,7 @@ from datetime import datetime
 def importFile(filename):
     with open(filename, "r", encoding="utf8") as file:
         yaml_data = yaml.safe_load(file)
-    words = yaml_data["words"]
+    words = yaml_data
     return words
 
 
