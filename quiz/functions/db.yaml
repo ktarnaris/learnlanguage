@@ -352,4 +352,102 @@
   translations:
     de: buchstabieren
     el: συλαβίζω
+- date: 2024-10-03
+  translations:
+    de: die Familie
+    el: οικογένεια
+
+- date: 2024-10-03
+  translations:
+    de: der/die Verwandte
+    el: ο/η σύζηγος
+
+- date: 2024-10-03
+  translations:
+    de: der Mann
+    el: άντρας/σύζυγος
+
+- date: 2024-10-03
+  translations:
+    de: die Frau
+    el: γυναίκα/σύζυγος
+
+- date: 2024-10-03
+  translations:
+    de: die Mutter
+    el: μητέρα
+
+- date: 2024-10-03
+  translations:
+    de: der Vater
+    el: πατέρας
+
+- date: 2024-10-03
+  translations:
+    de: die Eltern
+    el: γονείς
+
+- date: 2024-10-03
+  translations:
+    de: die Tochter
+    el: κόρη
+
+- date: 2024-10-03
+  translations:
+    de: der Sohn
+    el: γιός
+
+- date: 2024-10-03
+  translations:
+    de: der Kind
+    el: παιδί
+
+- date: 2024-10-03
+  translations:
+    de: die Schwester
+    el: αδερφή
+
+- date: 2024-10-03
+  translations:
+    de: der Bruder
+    el: αδερφός
+- date: 2024-10-03
+  translations:
+    de: die Gescwister
+    el: αδέρφια
+
+- date: 2024-10-03
+  translations:
+    de: die Oma
+    el: γιαγιά
+
+- date: 2024-10-03
+  translations:
+    de: die Groβmutter
+    el: γιαγιά
+
+- date: 2024-10-03
+  translations:
+    de: der Opa
+    el: παππούς
+
+- date: 2024-10-03
+  translations:
+    de: der Groβvater
+    el: παππούς
+
+- date: 2024-10-03
+  translations:
+    de: die Groβeltern
+    el: παπούδια
+
+- date: 2024-10-03
+  translations:
+    de: die Tante
+    el: θείa
+
+- date: 2024-10-03
+  translations:
+    de: der Onkel
+    el: θείος
 
