@@ -37,12 +37,12 @@ def main():
         # Add the new translation
         save_translation(date, de, el)
 
-        # Ask the user if they want to continue
-        cont = (
-            input("Do you want to add another translation? (yes/no): ").strip().lower()
-        )
-        if cont not in ("yes", ""):
-            break
+        # # Ask the user if they want to continue
+        # cont = (
+        #     input("Do you want to add another translation? (yes/no): ").strip().lower()
+        # )
+        # if econt not in ("yes", ""):
+        #     break
 
 
 if __name__ == "__main__":
