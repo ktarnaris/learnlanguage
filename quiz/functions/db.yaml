@@ -451,3 +451,513 @@
     de: der Onkel
     el: θείος
 
+- date: 2024-10-10
+  translations:
+    de: das Restaurant
+    el: το εστιατόριο
+
+- date: 2024-10-10
+  translations:
+    de: der Gast
+    el: ο πελάτης
+
+- date: 2024-10-10
+  translations:
+    de: das Gericht
+    el: το έδεσμα
+
+- date: 2024-10-10
+  translations:
+    de: das Menu'
+    el: το μενού
+
+- date: 2024-10-10
+  translations:
+    de: die Vorspeise
+    el: το ορεκτικό
+
+- date: 2024-10-10
+  translations:
+    de: die Spezialita't
+    el: η σπεσιαλιτέ
+
+- date: 2024-10-10
+  translations:
+    de: das Wasser
+    el: το νερό
+
+- date: 2024-10-10
+  translations:
+    de: das Mineralwasser
+    el: το μεταλλικό νερό
+
+- date: 2024-10-10
+  translations:
+    de: die Kohlensa'ure
+    el: το ανθρακικό
+
+- date: 2024-10-10
+  translations:
+    de: die Cola
+    el: το αναψυκτικό τύπου κόλα
+
+- date: 2024-10-10
+  translations:
+    de: die Limonade
+    el: η λεμονάδα
+
+- date: 2024-10-10
+  translations:
+    de: der Alkohol
+    el: το αλκοόλ
+
+- date: 2024-10-10
+  translations:
+    de: das Bier
+    el: η μπύρα
+
+- date: 2024-10-10
+  translations:
+    de: der Wein
+    el: το κρασί
+
+- date: 2024-10-10
+  translations:
+    de: der Weiβwein
+    el: το λευκό κρασί
+
+- date: 2024-10-10
+  translations:
+    de: der Rotwein
+    el: το κόκκινο κρασί
+
+- date: 2024-10-10
+  translations:
+    de: der Salat
+    el: η σαλάτα
+
+- date: 2024-10-10
+  translations:
+    de: die Suppe
+    el: η σούπα
+
+- date: 2024-10-10
+  translations:
+    de: das Schnitzel
+    el: το σνίτσελ
+
+- date: 2024-10-10
+  translations:
+    de: die Pommes frites
+    el: οι πατάτες τηγανητές
+
+- date: 2024-10-10
+  translations:
+    de: das Rindfleisch
+    el: το βοδινό κρέας
+
+- date: 2024-10-10
+  translations:
+    de: der Burger
+    el: το μπέργκερ
+
+- date: 2024-10-10
+  translations:
+    de: der Fisch
+    el: το ψάρι
+
+- date: 2024-10-10
+  translations:
+    de: das Zanderfilet
+    el: το φιλέτο πέρκας
+
+- date: 2024-10-10
+  translations:
+    de: die Kartoffel
+    el: η πατάτα
+
+- date: 2024-10-10
+  translations:
+    de: das Dessert
+    el: το γλυκό
+
+- date: 2024-10-10
+  translations:
+    de: die Sahne
+    el: η σαντυγί
+
+- date: 2024-10-10
+  translations:
+    de: das Eis
+    el: το παγωτό
+
+- date: 2024-10-10
+  translations:
+    de: der Apfelstrudel
+    el: το στρούντελ μήλου
+
+- date: 2024-10-10
+  translations:
+    de: das Trinkgeld
+    el: το φιλοδώρημα
+
+- date: 2024-10-10
+  translations:
+    de: servieren
+    el: σερβίρω
+
+- date: 2024-10-10
+  translations:
+    de: bestellen
+    el: παραγγέλνω
+
+- date: 2024-10-10
+  translations:
+    de: zahlen
+    el: πληρώνω
+
+- date: 2024-10-10
+  translations:
+    de: kosten
+    el: κοστίζω
+
+- date: 2024-10-10
+  translations:
+    de: essen
+    el: τρώω
+
+- date: 2024-10-10
+  translations:
+    de: trinken
+    el: πίνω
+
+- date: 2024-10-10
+  translations:
+    de: vegetarisch
+    el: χορτοφαγικό
+
+- date: 2024-10-10
+  translations:
+    de: geo'ffnet
+    el: ανοιχτό
+
+- date: 2024-10-10
+  translations:
+    de: geschlossen
+    el: κλειστό
+
+- date: 2024-10-10
+  translations:
+    de: der Montag
+    el: Δευτέρα
+
+- date: 2024-10-10
+  translations:
+    de: der Dienstag
+    el: Τρίτη
+
+- date: 2024-10-10
+  translations:
+    de: der Mittwoch
+    el: Τετάρτη
+
+- date: 2024-10-10
+  translations:
+    de: der Donnerstag
+    el: Πέμπτη
+
+- date: 2024-10-10
+  translations:
+    de: der Freitag
+    el: Παρασκευή
+
+- date: 2024-10-10
+  translations:
+    de: der Samstag
+    el: Σάββατο
+
+- date: 2024-10-10
+  translations:
+    de: der Sonnabend
+    el: βράδυ Σαββάτου (το βράδυ πριν την αργία)
+
+- date: 2024-10-10
+  translations:
+    de: der Sonntag
+    el: Κυριακή
+
+- date: 2024-10-10
+  translations:
+    de: das Wochenende
+    el: ΣΚ
+
+- date: 2024-10-10
+  translations:
+    de: der Feiertag
+    el: η αργία
+
+- date: 2024-10-10
+  translations:
+    de: der Ruhetag
+    el: το ρεπό
+
+- date: 2024-10-10
+  translations:
+    de: die Bibliothek
+    el: η Βιβλιοθήκη
+
+- date: 2024-10-10
+  translations:
+    de: die Onleine-Bibliothek
+    el: η δανειστική βιβλιοθήκη
+
+- date: 2024-10-10
+  translations:
+    de: der Kellner
+    el: ο σερβιτόρος
+
+- date: 2024-10-10
+  translations:
+    de: die Kellnerin
+    el: η σερβιτόρα
+
+- date: 2024-10-10
+  translations:
+    de: der Mensch
+    el: ο άνθρωπος
+
+- date: 2024-10-10
+  translations:
+    de: das Ding
+    el: το πράγμα
+
+- date: 2024-10-10
+  translations:
+    de: der Gegenstand
+    el: το αντικείμενο
+
+- date: 2024-10-10
+  translations:
+    de: das Patchwork
+    el: το ύφασμα
+
+- date: 2024-10-10
+  translations:
+    de: die Kreditkarte
+    el: η πιστωτική κάρτα
+
+- date: 2024-10-10
+  translations:
+    de: die Telefonkarte
+    el: η τηλεφωνική κάρτα
+
+- date: 2024-10-10
+  translations:
+    de: das Foto
+    el: η φωτογραφία
+
+- date: 2024-10-10
+  translations:
+    de: der Film
+    el: το έργο
+
+- date: 2024-10-10
+  translations:
+    de: der Freund
+    el: ο φίλος
+
+- date: 2024-10-10
+  translations:
+    de: die Freundin
+    el: η φίλη
+
+- date: 2024-10-10
+  translations:
+    de: der Junge
+    el: το αγόρι
+
+- date: 2024-10-10
+  translations:
+    de: das Ma'dchen
+    el: το κορίτσι
+
+- date: 2024-10-10
+  translations:
+    de: der Alltag
+    el: η καθημερινότητα
+
+- date: 2024-10-10
+  translations:
+    de: die Regel
+    el: ο κανόνας
+
+- date: 2024-10-10
+  translations:
+    de: die Postkarte
+    el: η ταχυδρομική κάρτα
+
+- date: 2024-10-10
+  translations:
+    de: die Stadt
+    el: η πόλη
+
+- date: 2024-10-10
+  translations:
+    de: die Musik
+    el: η μουσική
+
+- date: 2024-10-10
+  translations:
+    de: funktionieren
+    el: λειτουργεί
+
+- date: 2024-10-10
+  translations:
+    de: brauchen
+    el: χρειάζομαι
+
+- date: 2024-10-10
+  translations:
+    de: bekommen
+    el: αποκτώ
+
+- date: 2024-10-10
+  translations:
+    de: leben
+    el: ζω
+
+- date: 2024-10-10
+  translations:
+    de: erzha'len
+    el: διηγούμαι
+
+- date: 2024-10-10
+  translations:
+    de: es gibt (+Akkusativ)
+    el: υπάρχει (+ Αιτιατική)
+
+- date: 2024-10-10
+  translations:
+    de: kennen
+    el: γνωρίζω
+
+- date: 2024-10-10
+  translations:
+    de: mo'cht
+    el: θα ήθελα
+
+- date: 2024-10-10
+  translations:
+    de: haben
+    el: έχω
+
+- date: 2024-10-10
+  translations:
+    de: ho'ren
+    el: ακούω
+
+- date: 2024-10-10
+  translations:
+    de: lesen
+    el: διαβάζω
+
+- date: 2024-10-10
+  translations:
+    de: schreiben
+    el: γράφω
+
+- date: 2024-10-10
+  translations:
+    de: telefonieren
+    el: τηλεφωνώ
+
+- date: 2024-10-10
+  translations:
+    de: gehen
+    el: πηγαίνω
+
+- date: 2024-10-10
+  translations:
+    de: glauben
+    el: πιστεύω
+
+- date: 2024-10-10
+  translations:
+    de: o'ffnen
+    el: ανοίγω
+
+- date: 2024-10-10
+  translations:
+    de: schlieβen
+    el: κλείνω
+
+- date: 2024-10-10
+  translations:
+    de: nehmen
+    el: παίρνω
+
+- date: 2024-10-10
+  translations:
+    de: modern
+    el: μοντέρνο
+
+- date: 2024-10-10
+  translations:
+    de: altmodisch
+    el: παλιομοδίτικο
+
+- date: 2024-10-10
+  translations:
+    de: normal
+    el: φυσιολογικό
+
+- date: 2024-10-10
+  translations:
+    de: allien
+    el: μόνος
+
+- date: 2024-10-10
+  translations:
+    de: natu'rlich
+    el: φυσικό
+
+- date: 2024-10-10
+  translations:
+    de: unmo'glich
+    el: αδύνατο
+
+- date: 2024-10-10
+  translations:
+    de: traditionell
+    el: παραδοσιακό
+
+- date: 2024-10-10
+  translations:
+    de: ziemlich
+    el: πάρα πολύ
+
+- date: 2024-10-10
+  translations:
+    de: relativ
+    el: σχετικό
+
+- date: 2024-10-10
+  translations:
+    de: spa't
+    el: αργά
+
+- date: 2024-10-10
+  translations:
+    de: getrent
+    el: χωριστά
+
+- date: 2024-10-10
+  translations:
+    de: groβ
+    el: μεγάλο
+
+- date: 2024-10-10
+  translations:
+    de: klein
+    el: μικρό
+
