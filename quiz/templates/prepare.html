@@ -1,58 +1,167 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toggle Show/Hide Example</title>
+    <title>Interactive Quiz Page</title>
     <style>
-        #second-area {
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin-top: 10px;
-            display: none; /* Hidden by default */
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #81C784);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .header {
+            background: linear-gradient(135deg, #4CAF50, #388E3C);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom: 3px solid #2E7D32;
+        }
+        .content {
+            padding: 20px;
+        }
+        .flex-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
         }
         .area {
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin-bottom: 10px;
+            flex: 1;
+            padding: 15px;
+            border-radius: 10px;
+            background: #f9f9f9;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .area:hover {
+            transform: scale(1.02);
+            background: #f0f0f0;
+        }
+        #second-area {
+            display: none; /* Hidden by default */
+        }
+        .button {
+            display: inline-block;
+            margin: 15px 5px;
+            padding: 10px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #4CAF50, #388E3C);
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .button:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(135deg, #388E3C, #2E7D32);
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: #f4f4f9;
+            font-size: 14px;
+            color: #555;
         }
     </style>
     <script>
+        // Function to toggle visibility of the answer
         function toggleVisibility() {
             var secondArea = document.getElementById("second-area");
-            var computedStyle = window.getComputedStyle(secondArea);
-            
-            if (computedStyle.display === "none") {
+            if (secondArea.style.display === "none" || secondArea.style.display === "") {
                 secondArea.style.display = "block";
             } else {
                 secondArea.style.display = "none";
             }
         }
+
+        // Function to go to the next question (example: navigate to a URL)
+        function nextQuestion() {
+            window.location.href = "/prepare_quiz"; // Adjust this to your desired action
+        }
+
+        // Listen for keypress events
+        document.addEventListener("keydown", function (event) {
+            if (event.key === ".") {
+                // Toggle answer when "." is pressed
+                toggleVisibility();
+            } else if (event.key === "n") {
+                // Go to the next question when "n" is pressed
+                nextQuestion();
+            }
+        });
     </script>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            🌟 Interactive Quiz Challenge 🌟
+        </div>
+        <div class="content">
+            {% if status %}
+                <div class="flex-container">
+                    <div class="area" id="first-area">
+                        <p><strong>Question:</strong></p>
+                        <p>{{ question }}</p>
+                    </div>
 
-{% if status %}
-    <div class="area" id="first-area">
-        <p>{{ question }}</p>
+                    <div class="area" id="second-area">
+                        <p><strong>Answer:</strong></p>
+                        <p>{{ answer }}</p>
+                    </div>
+                </div>
+
+                <button class="button" onclick="toggleVisibility()">🔍 Toggle Answer</button>
+                <button class="button" onclick="nextQuestion()">➡️ Next Question</button>
+
+                <div class="area">
+                    <p><strong>Remaining Words:</strong> {{ remaining }}</p>
+                </div>
+            {% else %}
+                <p class="area" style="text-align: center; background: #ffe4e6; border-color: #ff6f61;">
+                    <strong>Quiz Finished!</strong> 🎉 Thank you for participating.
+                </p>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="/home" class="btn" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">Go Home</a>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="/settings" class="btn" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">Settings</a>
+                </div>
+            {% endif %}
+        </div>
+        <div class="footer">
+            &copy; 2024 Interactive Quiz. Designed with 💚.
+        </div>
     </div>
-
-    <button onclick="toggleVisibility()">Toggle Show/Hide Second Area</button>
-
-    <div class="area" id="second-area">
-        <p>{{ answer }}</p>
-    </div>
-    <a href="/prepare_quiz" class="button">Next Question</a>
-    <a href="/" class="button">Back to Home</a>
-
-    <div class="area" id="first-area">
-        <p>remaining words: {{ remaining }}</p>
-    </div>
-{% else %}
-      <p>Finished</p>
-{% endif %}
-
 </body>
 </html>

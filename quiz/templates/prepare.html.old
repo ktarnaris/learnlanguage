@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Show/Hide Example</title>
+    <style>
+        #second-area {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            display: none; /* Hidden by default */
+        }
+        .area {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        function toggleVisibility() {
+            var secondArea = document.getElementById("second-area");
+            var computedStyle = window.getComputedStyle(secondArea);
+            
+            if (computedStyle.display === "none") {
+                secondArea.style.display = "block";
+            } else {
+                secondArea.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+{% if status %}
+    <div class="area" id="first-area">
+        <p>{{ question }}</p>
+    </div>
+
+    <button onclick="toggleVisibility()">Toggle Show/Hide Second Area</button>
+
+    <div class="area" id="second-area">
+        <p>{{ answer }}</p>
+    </div>
+    <a href="/prepare_quiz" class="button">Next Question</a>
+    <a href="/" class="button">Back to Home</a>
+
+    <div class="area" id="first-area">
+        <p>remaining words: {{ remaining }}</p>
+    </div>
+{% else %}
+      <p>Finished</p>
+{% endif %}
+
+</body>
+</html>
